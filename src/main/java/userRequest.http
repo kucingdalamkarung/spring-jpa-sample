@@ -1,0 +1,29 @@
+GET http://localhost:8080/users/
+Content-Type: application/json
+
+###
+GET http://localhost:8080/users/1
+Content-Type: application/json
+
+###
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "username": "fiqrkm21",
+  "email": "fiqrilm21@gmail.com",
+  "password": "asdfasdf"
+}
+
+###
+PUT  http://localhost:8080/users/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "username": "fiqrkm20",
+  "email": "fiqrilm20@gmail.com"
+}
+
+###
+DELETE http://localhost:8080/users/delete/2

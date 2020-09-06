@@ -1,8 +1,11 @@
 package io.github.kucingdalamkarung.springjpasample.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
@@ -10,6 +13,7 @@ public class User {
     private Integer id;
     private String username;
     private String email;
+    @JsonIgnore
     private String password;
 
     public User() {
