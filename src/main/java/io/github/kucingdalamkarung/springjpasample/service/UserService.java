@@ -30,7 +30,11 @@ public class UserService {
     }
 
     public void updateUser(User user) {
-        userRepo.save(user);
+        User user1 = userRepo.getOne(user.getId());
+        user1.setUsername(user.getUsername());
+        user1.setEmail(user.getEmail());
+        user1.setPassword(user1.getPassword());
+        userRepo.save(user1);
     }
 
     public void deleteUser(Integer id) {

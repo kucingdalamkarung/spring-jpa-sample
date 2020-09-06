@@ -10,8 +10,8 @@ POST http://localhost:8080/users/
 Content-Type: application/json
 
 {
-  "username": "fiqrkm21",
-  "email": "fiqrilm21@gmail.com",
+  "username": "fiqrkm33",
+  "email": "fiqrilm33@gmail.com",
   "password": "asdfasdf"
 }
 
@@ -21,8 +21,8 @@ Content-Type: application/json
 
 {
   "id": 1,
-  "username": "fiqrkm20",
-  "email": "fiqrilm20@gmail.com"
+  "username": "fiqrkm22",
+  "email": "fiqrilm22@gmail.com"
 }
 
 ###
